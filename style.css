@@ -1,0 +1,78 @@
+body{
+    background: #f4f4f4;
+}
+
+header{
+    background-color: #333;
+    color: white;
+}
+
+headre-h1{
+    color: white;
+}
+
+.menu a{
+    color: lightblue;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: darkblue;
+    text-decoration: none;
+
+}
+
+section{
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+.section-info{
+    background-color: rgb(222, 221, 221);
+}
+
+#about .list-item{
+    color: #555;
+}
+
+#about .list-item:nth-child(3){
+    font-weight: bold;
+    color: #333;
+}
+
+input [type="text"],
+input[type="email"],
+textarea{
+    border: 1px solid #ddd;
+
+}
+
+
+input [type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus{
+    border-color: #00aaff;
+}
+
+input[type="submit"]{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+input[type="submit"]:hover{
+    background-color: darkblue;
+}
+
+footer{
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.menu a:visited{
+    color: darkblue;
+}
+
